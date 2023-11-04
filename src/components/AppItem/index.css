@@ -1,0 +1,24 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+}
+.app-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.app-image {
+  height: 150px;
+  width: 150px;
+}
+.app-name {
+  font-family: 'bree serif';
+  color: #1e293b;
+  font-size: 18px;
+}

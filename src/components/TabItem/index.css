@@ -1,0 +1,17 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+}
+.tabItem {
+  background-color: transparent;
+  font-family: 'roboto';
+  color: #7b8794;
+  list-style-type: none;
+}
+button{
+  border: none;
+}
+.active-tab {
+  color: #2563eb;
+  text-decoration: underline #2563eb;
+}
