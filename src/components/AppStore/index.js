@@ -331,7 +331,7 @@ class AppStore extends Component {
         <ul className="tabitems-container">
           {tabsList.map(eachTab => (
             <TabItem
-              key={eachTab.id}
+              key={eachTab.tabId}
               tabDetails={eachTab}
               isActive={activeTabId === eachTab.tabId}
               changeActiveTabId={this.changeActiveTabId}
@@ -340,7 +340,7 @@ class AppStore extends Component {
         </ul>
         <ul className="apps-container">
           {filteredApps.map(eachApp => (
-            <AppItem key={eachApp.id} appDetails={eachApp} />
+            <AppItem key={eachApp.appId} appDetails={eachApp} />
           ))}
         </ul>
       </div>
